@@ -1,0 +1,834 @@
+html {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: 'poppins-semibold-webfont';
+  src: url("../fonts/poppins-semibold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'poppins-medium-webfont';
+  src: url("../fonts/poppins-medium-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'poppins-regular-webfont';
+  src: url("../fonts/poppins-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url("../fonts/PoppinsBold.woff") format("woff");
+}
+
+body {
+  font-family: 'poppins-regular-webfont';
+}
+
+.main_login_page_back .back_light {
+  background-color: #CCE4FF;
+}
+
+.main_login_page_back .back_dark {
+  background-color: #1F1F70;
+}
+
+::-webkit-input-placeholder {
+  color: #000000 !important;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #000000 !important;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #000000 !important;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #000000 !important;
+  opacity: 1;
+}
+
+.light_side_login {
+  width: 100%;
+}
+
+.light_side_login h1 {
+  margin: 0 0 35px 0;
+  font-size: 36px;
+}
+
+.light_side_login .card {
+  margin: 140px 0 140px 65px;
+  border-radius: 30px 0 0px 30px;
+  padding: 100px 70px 30px 70px;
+  border: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.form_login_first .form-group input {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 60px;
+}
+
+.jv_cloud_logo {
+  position: absolute;
+  top: 16%;
+  z-index: 5;
+  left: 44%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.button_like_input_height {
+  height: 144px;
+}
+
+.button_like_input button {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 60px;
+  width: 100%;
+  border: 0;
+  font-size: 18px;
+}
+
+.button_like_input button img {
+  width: 7%;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.button_like_input p {
+  color: #777777;
+  font-family: "poppins-semibold-webfont";
+  margin: 30px 0;
+}
+
+.forgot_pass_link .form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.forgot_pass_link .form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.forgot_pass_link .form-group label {
+  position: relative;
+  cursor: pointer;
+}
+
+.forgot_pass_link .form-group label:before {
+  content: '';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #1F1F70;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.forgot_pass_link .form-group input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #1F1F70;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.forgot_pass_link label {
+  font-size: 18px;
+  color: #1F1F70;
+  font-family: "poppins-semibold-webfont";
+}
+
+.form-group a {
+  text-decoration: underline;
+  color: #1F1F70;
+  font-family: "PoppinsBold";
+}
+
+.button_login_reg_div {
+  position: relative;
+}
+
+.button_login_reg_div button {
+  padding: 0;
+  height: 50px;
+  width: 80%;
+  border-radius: 30px;
+  border: 0;
+  background-color: #1f1f70;
+  color: #fff;
+  font-size: 18px;
+  font-family: "PoppinsBold";
+  margin: 30px 0;
+}
+
+.button_login_reg_div button span {
+  font-weight: 700;
+  position: absolute;
+  top: initial;
+  left: 70%;
+}
+
+.last_message_form p {
+  font-size: 18px;
+  font-family: "poppins-semibold-webfont";
+  color: #777777;
+}
+
+.last_message_form p a {
+  font-family: "PoppinsBold";
+  color: #1F1F70;
+}
+
+.dark_side_login {
+  width: 100%;
+}
+
+.dark_side_login .card {
+  margin: 140px 65px 140px -1px;
+  border-radius: 0px 30px 30px 0px;
+  padding: 100px 70px 30px 70px;
+  border: 0;
+  background-color: #E6F2FF;
+  min-height: 709px;
+}
+
+.dark_side_login .card img {
+  width: 100%;
+}
+
+.header_div_for_dasnboard {
+  margin: 50px 0;
+}
+
+.header_div_for_dasnboard .message_dashboard p {
+  color: #48A9F8;
+}
+
+.header_div_for_dasnboard .message_dashboard h5 {
+  font-family: "PoppinsBold";
+  color: #1F1F70;
+  font-size: 26px;
+}
+
+.accordion-title i.fa-angle-down {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.accordion-title i.fa-angle-down.chevron-top {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.images_beside_dashboard_header {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.images_beside_dashboard_header img {
+  margin: 0 10px;
+  width: 30px;
+}
+
+.jv_cloud_sign-up_page .dark_side_login {
+  width: 100%;
+}
+
+.jv_cloud_sign-up_page .dark_side_login .card {
+  margin: 140px 65px 140px -1px;
+  padding: 100px 30px 30px 30px;
+  min-height: auto;
+}
+
+.jv_cloud_sign-up_page .light_side_login .card {
+  margin: 140px 0 140px 65px;
+  padding: 100px 70px 30px 70px;
+  min-height: 675px;
+  max-height: 675px;
+}
+
+.jv_cloud_sign-up_page .dark_side_login h1 {
+  padding-bottom: 30px;
+}
+
+.forget_password_text_middle p {
+  font-size: 18px;
+  font-family: "PoppinsBold";
+  color: #777777;
+  padding: 30px 62px 80px;
+}
+
+.jv_cloud_forget_password_page .light_side_login .card {
+  min-height: 709px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.left_side_div_dashboard {
+  background-color: #1F1F70;
+  border-radius: 20px;
+  margin: 20px 0;
+  color: #ffffff;
+  padding: 20px 20px 80px;
+}
+
+.left_side_div_dashboard .accordion-item .accordion-content {
+  display: none;
+}
+
+.logo_in_middle img {
+  padding: 20px;
+  background-color: aliceblue;
+  margin: 50px 0;
+}
+
+.dashboard_back_all_page {
+  background-color: #E6F2FF;
+}
+
+.profile_accordi_image_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile_accordi_image_name a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #E6F2FF;
+}
+
+a {
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.profile_accordi_image_name a:hover {
+  color: #48A9F8;
+}
+
+.profile_accordi_image_name a .active_page_link {
+  color: #48A9F8;
+}
+
+.text_beside_profile {
+  margin: 0 0 0 10px;
+}
+
+.text_beside_profile p {
+  margin: 0;
+}
+
+.text_beside_profile p:first-child {
+  font-family: "PoppinsBold";
+  font-size: 20px;
+  color: #CCE4FF;
+}
+
+.text_beside_profile p:last-child {
+  color: #92C0FF;
+}
+
+.text_beside_profile h5 {
+  font-size: 16px;
+}
+
+.profile_accordin {
+  margin: 20px 0 10px 0;
+}
+
+.profile_accordin_up_margin {
+  margin-top: 80px !important;
+}
+
+.listing_left_div_accordin li a {
+  color: #CCE4FF;
+}
+
+.headding_div_upper_tablr_for_sort {
+  padding: 20px 0;
+}
+
+.headding_div_upper_tablr_for_sort .form-control {
+  display: block;
+  width: 100%;
+}
+
+.headding_div_upper_tablr_for_sort .flex_show_rows_div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headding_div_upper_tablr_for_sort .flex_show_rows_div p {
+  margin: 0 7px 17px 7px;
+}
+
+.headding_div_upper_tablr_for_sort .dropdown-toggle::after {
+  display: none;
+}
+
+.headding_div_upper_tablr_for_sort .dropdown-menu.show {
+  text-align: center;
+  padding: 10px;
+}
+
+.headding_div_upper_tablr_for_sort .dropdown-menu.show a {
+  color: #1F1F70;
+  font-family: "PoppinsBold";
+  line-height: 32px;
+}
+
+.headding_div_upper_tablr_for_sort .dropdown-menu.show a:hover {
+  color: #48A9F8;
+}
+
+.green_haeding h2 {
+  font-family: "PoppinsBold";
+  color: #116608;
+}
+
+.main_table_div_jv_cloud ::-webkit-scrollbar {
+  height: 12px;
+}
+
+.main_table_div_jv_cloud ::-webkit-scrollbar-track {
+  background-color: #48A9F8;
+  border-radius: 10px;
+}
+
+.main_table_div_jv_cloud ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #1F1F70;
+}
+
+.table_card_wrapper_div {
+  overflow-x: scroll;
+}
+
+.table_card_wrapper_div table {
+  border-collapse: collapse;
+  padding: 0px 0 70px 0;
+}
+
+.table_card_wrapper_div table thead tr {
+  -webkit-box-shadow: 0px 0px 8px 0px #00000040;
+          box-shadow: 0px 0px 8px 0px #00000040;
+  border-radius: 71px;
+  background: #F4F0FD;
+  color: #1F1F70;
+}
+
+.table_card_wrapper_div table th {
+  text-align: center;
+  padding: 15px 25px;
+  min-width: 150px;
+}
+
+.table_card_wrapper_div table td {
+  text-align: center;
+  padding: 10px 5px;
+  border: 0;
+  background-color: #ffffff;
+}
+
+.table_card_wrapper_div table td p {
+  font-size: 10px;
+}
+
+.table_card_wrapper_div table tbody tr {
+  display: none;
+}
+
+.table_card_wrapper_div .pagination-container {
+  position: absolute;
+  bottom: 35px;
+  right: 60px;
+  padding: 0 10px;
+  margin: 0;
+  border: 1px solid #1F1F70;
+  border-radius: 10px;
+}
+
+.table_card_wrapper_div .pagination-container ul {
+  margin: 0;
+}
+
+.table_card_wrapper_div .pagination-container ul li {
+  padding: 10px 20px;
+  border-right: 1px solid #1F1F70;
+}
+
+.table_card_wrapper_div .pagination-container ul li span {
+  font-family: "PoppinsBold";
+  font-size: 15px;
+}
+
+.table_card_wrapper_div .pagination-container ul li span img {
+  width: 85%;
+}
+
+.table_card_wrapper_div .pagination-container ul li:last-child {
+  padding: 10px;
+  border-right: 0px solid #1F1F70;
+}
+
+.table_card_wrapper_div .pagination li:hover {
+  cursor: pointer;
+}
+
+.table_card_wrapper_div .table_space {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.table_card_wrapper_div .space-table-r {
+  border-right: hidden;
+}
+
+#divMsg {
+  display: none;
+}
+
+.dropdown_three a i {
+  margin: 0 10px;
+}
+
+.dropdown_three p {
+  font-family: "PoppinsBold";
+}
+
+.pnf-text h1 {
+  color: #1F1F70;
+  font-family: 'PoppinsBold';
+}
+
+.wrapper-page-not-found .button_login_reg_div button {
+  width: 20%;
+}
+
+@media only screen and (max-width: 1680px) {
+  .dark_side_login .card img {
+    width: 78%;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1441px) {
+  .forget_password_text_middle p {
+    padding: 167px 62px 80px;
+  }
+  .jv_cloud_forget_password_page .reset_pass .light_side_login .card {
+    min-height: 755px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .dark_side_login .card img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .text_beside_profile p:first-child {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1152px) {
+  .forgot_pass_link label {
+    font-size: 14px;
+  }
+  .button_login_reg_div button {
+    height: 47px;
+    font-size: 14px;
+  }
+  .dark_side_login .card {
+    min-height: 703px;
+  }
+  .jv_cloud_sign-up_page .light_side_login .card {
+    min-height: 672px;
+  }
+  .jv_cloud_forget_password_page .light_side_login .card {
+    min-height: 703px;
+  }
+  .text_beside_profile p:last-child {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .light_side_login .card {
+    margin: 140px 0 140px 65px;
+    padding: 82px 70px 30px 70px;
+  }
+  .forget_password_text_middle p {
+    padding: 30px 0px 80px;
+  }
+  .table_card_wrapper_div .pagination-container {
+    position: absolute;
+    bottom: 74px;
+  }
+  .table_card_wrapper_div table th {
+    min-width: auto;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .light_side_login .card {
+    margin: 140px 0 140px 65px;
+    padding: 82px 30px 30px 30px;
+  }
+  .dark_side_login .card {
+    min-height: 685px;
+  }
+  .jv_cloud_forget_password_page .light_side_login .card {
+    min-height: 698px;
+  }
+  .pnf-text h1 {
+    font-size: 26px;
+  }
+  .wrapper-page-not-found .button_login_reg_div button {
+    width: 36%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .light_side_login h1 {
+    margin: 0 0 14px 0;
+    font-size: 23px;
+  }
+  .light_side_login .card {
+    margin: 50px 0 30px 30px;
+    padding: 30px 15px 15px 15px;
+  }
+  .forgot_pass_link label {
+    font-size: 12px;
+  }
+  .form-group a {
+    font-size: 12px;
+  }
+  .last_message_form p {
+    font-size: 12px;
+  }
+  .dark_side_login .card {
+    min-height: 541px;
+    margin: 50px 30px 30px -1px;
+    border-radius: 0px 30px 30px 0px;
+    padding: 30px 15px 15px 15px;
+  }
+  .form_login_first .form-group input {
+    height: 50px;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  :-ms-input-placeholder {
+    font-size: 14px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  ::placeholder {
+    font-size: 14px;
+  }
+  .jv_cloud_logo {
+    position: absolute;
+    top: 0%;
+  }
+  .jv_cloud_sign-up_page .light_side_login .card {
+    margin: 30px 0 30px 30px;
+    padding: 15px 15px 15px 15px;
+    min-height: 516px;
+  }
+  .jv_cloud_sign-up_page .dark_side_login .card {
+    margin: 30px 30px 30px 0px;
+    padding: 30px 15px 15px 15px;
+  }
+  .dark_side_login h1 {
+    font-size: 24px;
+  }
+  .jv_cloud_forget_password_page .light_side_login .card {
+    min-height: 542px;
+  }
+  .button_like_input_height {
+    height: 134px;
+  }
+  .wrapper_dashboard_main_index .col-md-3, .wrapper_dashboard_main_index .col-md-9 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+  .left_side_div_dashboard {
+    padding: 20px 20px 20px;
+  }
+  .header_div_for_dasnboard {
+    margin: 20px 0;
+  }
+  .table_card_wrapper_div .pagination-container {
+    bottom: 34px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .light_side_login .card {
+    margin: 30px 30px 30px 30px;
+    padding: 30px 15px 15px 15px;
+    border-radius: 20px;
+  }
+  .forgot_pass_link .text-right {
+    text-align: left !important;
+  }
+  .form-group {
+    text-align: left;
+  }
+  .dark_side_login .card {
+    min-height: auto;
+    margin: 30px 30px 30px 30px;
+    border-radius: 20px;
+    padding: 30px 15px 15px 15px;
+  }
+  .dark_side_login .card img {
+    width: 80%;
+  }
+  .column_rev {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .jv_cloud_logo {
+    top: 0%;
+    left: 38%;
+  }
+  .button_like_input button img {
+    width: 5%;
+    top: 9px;
+  }
+  .jv_cloud_sign-up_page .dark_side_login .card {
+    margin: 30px 30px 30px 30px;
+    padding: 40px 15px 15px 15px;
+  }
+  .jv_cloud_sign-up_page .light_side_login .card {
+    margin: 30px;
+    padding: 15px;
+    min-height: auto;
+    max-height: inherit;
+  }
+  .jv_cloud_sign-up_page .image_first_login img {
+    width: 50%;
+  }
+  .jv_cloud_forget_password_page .light_side_login .card {
+    min-height: auto;
+  }
+  .button_like_input_height {
+    height: 34px;
+  }
+  .headding_div_upper_tablr_for_sort .text-right {
+    text-align: left !important;
+  }
+  .headding_div_upper_tablr_for_sort {
+    padding: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .dark_side_login .card {
+    margin: 15px;
+  }
+  .light_side_login .card {
+    margin: 15px;
+  }
+  .jv_cloud_logo {
+    left: 30%;
+  }
+  .button_like_input button img {
+    width: 9%;
+  }
+  .jv_cloud_sign-up_page .light_side_login .card {
+    margin: 15px;
+  }
+  .jv_cloud_sign-up_page .dark_side_login .card {
+    margin: 15px;
+    padding: 30px 15px 15px 15px;
+  }
+  .jv_cloud_sign-up_page .image_first_login img {
+    width: 100%;
+  }
+  .forget_password_text_middle p {
+    padding: 10px 0px 10px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .button_like_input button img {
+    width: 13%;
+  }
+  .jv_cloud_logo {
+    left: 24%;
+  }
+  .table_card_wrapper_div .pagination-container {
+    bottom: 34px;
+    right: 15px;
+  }
+  .pnf-text h1 {
+    font-size: 21px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,775 @@
+$fobt-bold: 'PoppinsBold';
+$col_blue: #1F1F70;
+$col_light: #CCE4FF;
+$white : #ffffff;
+$font_medium: 'poppins-medium-webfont';
+$font_semi: 'poppins-semibold-webfont';
+
+html{overflow-x: hidden;}
+img{max-width: 100%;}
+@font-face {
+  font-family: 'poppins-semibold-webfont';
+  src: url('../fonts/poppins-semibold-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'poppins-medium-webfont';
+  src: url('../fonts/poppins-medium-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'poppins-regular-webfont';
+  src: url('../fonts/poppins-regular-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url('../fonts/PoppinsBold.woff') format('woff');
+}
+body{
+    font-family: 'poppins-regular-webfont';
+}
+.main_login_page_back{
+    .back_light{
+        background-color: $col_light;
+    }
+    .back_dark{
+        background-color: $col_blue;
+    }
+}
+::placeholder {
+    color: #000000 !important;
+    opacity: 1;
+}
+.light_side_login{
+    width: 100%;
+    h1{
+        margin: 0 0 35px 0;
+    font-size: 36px;
+    }
+    .card{
+        margin: 140px 0 140px 65px;
+        border-radius: 30px 0 0px 30px;
+        padding: 100px 70px 30px 70px;
+        border: 0;
+    }
+}
+.relative{
+    position: relative;
+}
+.form_login_first{
+    .form-group{
+        input{
+            background: #FFFFFF;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            height: 60px;
+        }
+    }
+}
+.jv_cloud_logo{
+    position: absolute;
+    top: 16%;
+    z-index: 5;
+    left: 44%;
+    background-color: #fff;
+    padding: 20px;
+}
+.button_like_input_height {
+    height: 144px;
+    
+}
+.button_like_input{
+    button{
+        background: #FFFFFF;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        height: 60px;
+        width: 100%;
+        border: 0;
+        font-size: 18px;
+    img{
+        width: 7%;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        }
+    }
+    p{
+        color: #777777;
+        font-family: $font_semi;
+        margin: 30px 0;
+    }
+}
+.forgot_pass_link{
+    .form-group {
+        display: block;
+        margin-bottom: 15px;
+      }
+      
+      .form-group input {
+        padding: 0;
+        height: initial;
+        width: initial;
+        margin-bottom: 0;
+        display: none;
+        cursor: pointer;
+      }
+      
+      .form-group label {
+        position: relative;
+        cursor: pointer;
+      }
+      
+      .form-group label:before {
+        content:'';
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: 2px solid $col_blue;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+        padding: 8px;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        cursor: pointer;
+        margin-right: 5px;
+        border-radius: 5px;
+      }
+      
+      .form-group input:checked + label:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 6px;
+        left: 9px;
+        width: 6px;
+        height: 14px;
+        border: solid $col_blue;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+      }
+      label{
+          font-size: 18px;
+          color: $col_blue;
+          font-family: $font_semi;
+      }
+}
+.form-group{
+    a{
+        text-decoration: underline;
+        color: $col_blue;
+        font-family: $fobt-bold;
+    }
+}
+.button_login_reg_div{
+    position: relative;
+    button{
+        padding: 0;
+        height: 50px;
+        width: 80%;
+        border-radius: 30px;
+        border: 0;
+        background-color: #1f1f70;
+        color: #fff;
+        font-size: 18px;
+        font-family: $fobt-bold;
+        margin: 30px 0;
+        span{
+            font-weight: 700;
+            position: absolute;
+            top: initial;
+            left: 70%;
+        }
+    }
+}
+.last_message_form{
+    p{
+        font-size: 18px;
+        font-family: $font_semi;
+        color: #777777;
+        a{
+            font-family: $fobt-bold;
+            color: $col_blue;
+
+        }
+    }
+}
+.dark_side_login {
+   width: 100%;
+    .card{
+        margin: 140px 65px 140px -1px;
+        border-radius: 0px 30px 30px 0px;
+        padding: 100px 70px 30px 70px;
+        border: 0;
+        background-color: #E6F2FF;
+        min-height: 709px;
+        img{
+            width: 100%;
+        }
+    }
+}
+.header_div_for_dasnboard{
+    margin: 50px 0;
+    .message_dashboard{
+        p{
+            color: #48A9F8;
+        }
+        h5{
+            font-family: $fobt-bold;
+            color: $col_blue;
+            font-size: 26px;
+        }
+    }
+}
+
+.accordion-title { 
+    i.fa-angle-down {
+        transform: rotate(0);
+        transition: 0.4s;
+    }
+    i.fa-angle-down.chevron-top {
+        transform: rotate(-180deg);
+    }
+}
+.images_beside_dashboard_header{
+    display: inline-flex;
+    img{
+        margin: 0 10px;
+        width: 30px;
+    }
+}
+// ------------------------sign up -----------
+.jv_cloud_sign-up_page{
+    .dark_side_login{
+        width: 100%;
+    }
+    .dark_side_login .card {
+        margin: 140px 65px 140px -1px;
+        padding: 100px 30px 30px 30px;
+        min-height: auto;
+    }
+    .light_side_login .card {
+        margin: 140px 0 140px 65px;
+        padding: 100px 70px 30px 70px;
+        min-height: 675px;
+        max-height: 675px;
+    }
+    .dark_side_login h1{
+      padding-bottom: 30px;
+     
+    }
+}
+// ------------------------forget password -----------
+.forget_password_text_middle{
+    p{
+        font-size: 18px;
+        font-family: $fobt-bold;
+        color: #777777;
+        padding: 30px 62px 80px;
+    }
+}
+.jv_cloud_forget_password_page{
+    .light_side_login {
+        .card{
+            min-height: 709px;
+        }
+    }
+}
+// ------------------------Dashboard page -----------
+a:hover{
+    text-decoration: none;
+}
+.left_side_div_dashboard{
+    background-color: $col_blue;
+    border-radius: 20px;
+    margin: 20px 0;
+    color: $white;
+    padding: 20px 20px 80px;
+   .accordion-item {
+    .accordion-content {
+            display: none;
+        }
+    }
+}
+.logo_in_middle{
+    img{
+        padding: 20px;
+        background-color: aliceblue;
+        margin: 50px 0;
+    }
+}
+.dashboard_back_all_page{
+    background-color: #E6F2FF;
+}
+.profile_accordi_image_name{
+    display: flex;
+    align-items: center;
+}
+.profile_accordi_image_name a{
+    display: flex;
+    align-items: center;
+    color: #E6F2FF;
+}
+a{
+    transition: all ease-in-out 0.3s;
+}
+.profile_accordi_image_name {
+    a:hover{
+        color: #48A9F8;
+    }
+    a{
+        .active_page_link{
+            color: #48A9F8;
+        }
+    }
+}
+.text_beside_profile{
+    margin: 0 0 0 10px;
+    p{
+        margin: 0;
+    }
+    p:first-child{
+        font-family: $fobt-bold;
+        font-size: 20px;
+        color: $col_light;
+        
+    }
+    p:last-child{
+        color: #92C0FF;
+    }
+    h5{
+        font-size: 16px;
+    }
+}
+.profile_accordin{
+    margin: 20px 0 10px 0;
+}
+.profile_accordin_up_margin{
+    margin-top: 80px !important;
+}
+.listing_left_div_accordin{
+    li{
+        a{
+            color: $col_light;
+        }
+    }
+}
+// ------------------------sale register -----------
+.headding_div_upper_tablr_for_sort{
+    padding: 20px 0;
+    .form-control {
+        display: block;
+        width: 100%;
+    }
+    .flex_show_rows_div{
+        display: inline-flex;
+        align-items: center;
+        p{
+            margin: 0 7px 17px 7px;
+        }
+
+    }
+    .dropdown-toggle::after {
+        display: none;
+    }
+    .dropdown-menu.show {
+        text-align: center;
+        padding: 10px;
+        a{
+            color: $col_blue;
+            font-family: $fobt-bold;
+            line-height: 32px;
+        }
+        a:hover{
+            color: #48A9F8;
+        }
+    }
+}
+.green_haeding{
+    h2{
+        font-family: $fobt-bold;
+        color: #116608;
+    }
+}
+.main_table_div_jv_cloud{
+    ::-webkit-scrollbar {
+        height: 12px;
+    }
+     
+    ::-webkit-scrollbar-track {
+        background-color: #48A9F8;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: $col_blue; 
+    }
+}
+.table_card_wrapper_div{
+    overflow-x: scroll;
+    table {
+        border-collapse: collapse; 
+        padding: 0px 0 70px 0;
+        thead{
+            tr{
+                box-shadow: 0px 0px 8px 0px #00000040;
+                border-radius: 71px;
+                background: #F4F0FD;
+                color: $col_blue;
+
+            }
+        }
+        th {
+            text-align: center;
+            padding: 15px 25px;
+            min-width: 150px;
+        }
+        td {
+            text-align: center;
+            padding: 10px 5px;
+            border: 0;
+            background-color: $white;
+            p{
+                font-size: 10px;
+            }
+        }
+        tr {
+            &:nth-child(even) {
+                // background-color: #BEF2F5;
+            }
+        }
+        tbody {
+            tr {
+                display: none;
+            }
+        }
+    }
+    .pagination-container{
+        position: absolute;
+        bottom: 35px;
+        right: 60px;
+        padding: 0 10px;
+        margin: 0;
+        border: 1px solid $col_blue;
+        border-radius: 10px; 
+        ul{
+            margin: 0;
+            li{
+                padding: 10px 20px;
+                border-right: 1px solid $col_blue;
+                span{
+                font-family: $fobt-bold;
+                font-size: 15px;
+                img{
+                    width: 85%;
+                }
+                }
+            }
+            li:last-child{
+                padding: 10px;
+                border-right: 0px solid $col_blue;
+            }
+        }
+    }
+    .pagination {
+        li {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .table_space{
+        border-collapse:separate; 
+        border-spacing:0 15px; 
+    }
+    .space-table-r{
+        border-right:hidden; 
+    }
+    
+}
+#divMsg{
+    display: none;
+}
+.dropdown_three{
+    a{
+        i{
+            margin: 0 10px;
+        }
+       
+    }
+    p{
+        font-family: $fobt-bold;
+    }
+}
+
+.pnf-text{
+    h1{
+        color: $col_blue;
+        font-family: 'PoppinsBold';
+    }
+}
+.wrapper-page-not-found{
+    .button_login_reg_div{
+        button{
+            width: 20%;
+        }
+    }
+}
+// ==============================media=======================
+@media only screen and (max-width: 1680px) {
+    .dark_side_login .card img {
+        width: 78%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1441px) {
+    .forget_password_text_middle p{
+        padding: 167px 62px 80px;
+    }
+    .jv_cloud_forget_password_page .reset_pass .light_side_login .card {
+        min-height: 755px;
+    }
+    
+}
+@media only screen and (max-width: 1366px) {
+    .dark_side_login .card img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .text_beside_profile p:first-child {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 1152px) {
+    .forgot_pass_link label {
+        font-size: 14px;
+    }
+    .button_login_reg_div button {
+        height: 47px;
+        font-size: 14px;
+    }
+    .dark_side_login .card {
+        min-height: 703px;
+    }
+    .jv_cloud_sign-up_page .light_side_login .card {
+        min-height: 672px;
+    }
+    .jv_cloud_forget_password_page .light_side_login .card {
+        min-height: 703px;
+    }
+    .text_beside_profile p:last-child {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .light_side_login .card {
+        margin: 140px 0 140px 65px;
+        padding: 82px 70px 30px 70px;
+    }
+    .forget_password_text_middle p {
+        padding: 30px 0px 80px;
+    }
+    .table_card_wrapper_div .pagination-container {
+        position: absolute;
+        bottom: 74px;
+    }
+    .table_card_wrapper_div table th {
+        min-width: auto;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .light_side_login .card {
+        margin: 140px 0 140px 65px;
+        padding: 82px 30px 30px 30px;
+    }
+    .dark_side_login .card {
+        min-height: 685px;
+    }
+    .jv_cloud_forget_password_page .light_side_login .card {
+        min-height: 698px;
+    }
+    .pnf-text h1 {
+        font-size: 26px;
+    }
+    .wrapper-page-not-found .button_login_reg_div button {
+        width: 36%;
+    }
+   
+}
+@media only screen and (max-width: 768px) {
+    .light_side_login h1 {
+        margin: 0 0 14px 0;
+        font-size: 23px;
+    }
+    .light_side_login .card {
+        margin: 50px 0 30px 30px;
+        padding: 30px 15px 15px 15px;
+    }
+    .forgot_pass_link label {
+        font-size: 12px;
+    }
+    .form-group a {
+        font-size: 12px;
+    }
+    .last_message_form p {
+        font-size: 12px;
+    }
+    .dark_side_login .card {
+        min-height: 541px;
+        margin: 50px 30px 30px -1px;
+        border-radius: 0px 30px 30px 0px;
+        padding: 30px 15px 15px 15px;
+    }
+    .form_login_first .form-group input {
+        height: 50px;
+    }
+    ::placeholder{
+        font-size: 14px;
+    }
+  
+    .jv_cloud_logo {
+        position: absolute;
+        top: 0%;
+    }
+    .jv_cloud_sign-up_page .light_side_login .card {
+        margin: 30px 0 30px 30px;
+        padding: 15px 15px 15px 15px;
+        min-height: 516px;
+    }
+    .jv_cloud_sign-up_page .dark_side_login .card {
+        margin: 30px 30px 30px 0px;
+        padding: 30px 15px 15px 15px;
+    }
+    .dark_side_login h1{
+        font-size: 24px;
+    }
+    .jv_cloud_forget_password_page .light_side_login .card {
+        min-height: 542px;
+    }
+    .button_like_input_height {
+        height: 134px;
+    }
+    .wrapper_dashboard_main_index{
+        .col-md-3, .col-md-9{
+             flex: 0 0 100% !important;
+            max-width: 100%;
+        }
+    }
+    .left_side_div_dashboard {
+        padding: 20px 20px 20px;
+    }
+    .header_div_for_dasnboard {
+        margin: 20px 0;
+    }
+    .table_card_wrapper_div .pagination-container {
+        bottom: 34px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .light_side_login .card {
+        margin: 30px 30px 30px 30px;
+        padding: 30px 15px 15px 15px;
+        border-radius: 20px;
+    }
+    .forgot_pass_link .text-right{
+        text-align: left !important;
+    }
+    .form-group {
+        text-align: left;
+    }
+    .dark_side_login .card {
+        min-height: auto;
+        margin: 30px 30px 30px 30px;
+        border-radius: 20px;
+        padding: 30px 15px 15px 15px;
+    }
+    .dark_side_login .card img {
+        width: 80%;
+    }
+    .column_rev{
+        flex-direction: column-reverse;
+    }
+    .jv_cloud_logo {
+        top: 0%;
+        left: 38%;
+    }
+    .button_like_input button img {
+        width: 5%;
+        top: 9px;
+    }
+    .jv_cloud_sign-up_page .dark_side_login .card {
+        margin: 30px 30px 30px 30px;
+        padding: 40px 15px 15px 15px;
+    }
+    .jv_cloud_sign-up_page .light_side_login .card {
+        margin: 30px;
+        padding: 15px;
+        min-height: auto;
+        max-height: inherit;
+    }
+    .jv_cloud_sign-up_page{
+        .image_first_login{
+            img{
+                width: 50%;
+            }
+        }
+    }
+    .jv_cloud_forget_password_page .light_side_login .card {
+        min-height: auto;
+    }
+    .button_like_input_height {
+        height: 34px;
+    }
+    .headding_div_upper_tablr_for_sort{
+        .text-right{
+            text-align: left !important;
+        }
+    }
+    .headding_div_upper_tablr_for_sort {
+        padding: 10px 0;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .dark_side_login .card {
+        margin: 15px;
+    }
+    .light_side_login .card {
+        margin: 15px;
+    }
+    .jv_cloud_logo {
+        left: 30%;
+    }
+    .button_like_input button img {
+        width: 9%;
+    }
+    .jv_cloud_sign-up_page .light_side_login .card {
+        margin: 15px;
+    }
+    .jv_cloud_sign-up_page .dark_side_login .card {
+        margin: 15px;
+        padding: 30px 15px 15px 15px;
+    }
+    .jv_cloud_sign-up_page .image_first_login img {
+        width: 100%;
+    }
+    .forget_password_text_middle p {
+        padding: 10px 0px 10px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .button_like_input button img {
+        width: 13%;
+    }
+    .jv_cloud_logo {
+        left: 24%;
+    }
+    .table_card_wrapper_div .pagination-container {
+        bottom: 34px;
+        right: 15px;
+    }
+    .pnf-text h1 {
+        font-size: 21px;
+    }
+}
